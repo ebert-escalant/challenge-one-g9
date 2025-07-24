@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge | Amigo Secreto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/style.css">
+  </head>
+  <body>
+    <div class="bg-container">
+      <div class="gradient"></div>
+    </div>
+    <div class="wrap">
+      <figure class="image-container">
+        <img src="/public/amigo-secreto.png" class="image" alt="">
+      </figure>
+      <h1 class="title font-bitcount">Amigo Secreto</h1>
+      <div class="form-group">
+        <input type="text" class="form-control" id="add-item-input">
+        <button class="input-addon" id="add-item-button">Agregar</button>
+      </div>
+      <div class="list-container">
+        <ul class="list" id="list">
+        </ul>
+        <template id="list-item-template">
+          <li class="list-item">
+            <span class="name">Nombre del Amigo</span>
+            <button type="button" class="action">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M4 7h16" />
+                <path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12" />
+                <path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3" />
+                <path d="M10 12l4 4m0 -4l-4 4" />
+              </svg>
+            </button>
+          </li>
+        </template>
+      </div>
+      <div class="actions">
+        <button class="btn-primary" id="start-game-button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M7 4v16l13 -8z" />
+          </svg>
+          Sorteo amigo
+        </button>
+        <button class="btn-secondary" id="reset-game-button">Reiniciar</button>
+      </div>
+    </div>
+    <footer class="footer">
+      <p class="text">Hecho con <span class="heart">❤️</span> por <a href="https://github.com/ebert-escalant" target="_blank" rel="noopener noreferrer">Ebert Escalante</a></p>
+    </footer>
+    <div class="dialog-container" id="winner-dialog">
+      <div class="dialog">
+        <p></p>
+        <button type="button" id="accept-winner-button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M5 12l5 5l10 -10" />
+          </svg>
+          Aceptar
+        </button>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
