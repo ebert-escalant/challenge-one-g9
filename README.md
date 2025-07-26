@@ -2,7 +2,7 @@
 
 <p>
     <a href="https://www.oracle.com/pe/education/oracle-next-education/">
-        <img src="    https://cdn2.gnarususercontent.com.br/1/1221562/b6256fa6-5fde-4cdd-a4a3-d33ebc90bb6c.png" alt="Oracle" height="60"/>
+        <img src="https://cdn2.gnarususercontent.com.br/1/1221562/b6256fa6-5fde-4cdd-a4a3-d33ebc90bb6c.png" alt="Oracle" height="60"/>
     </a>
     &nbsp;&nbsp;
     <a href="https://www.aluracursos.com/">
