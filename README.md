@@ -2,11 +2,11 @@
 
 <p>
     <a href="https://www.oracle.com/pe/education/oracle-next-education/">
-        <img src="https://cdn2.gnarususercontent.com.br/1/1221562/b6256fa6-5fde-4cdd-a4a3-d33ebc90bb6c.png" alt="Oracle" height="60"/>
+        <img src="https://cdn2.gnarususercontent.com.br/1/1221562/b6256fa6-5fde-4cdd-a4a3-d33ebc90bb6c.png" target="_blank" alt="Oracle" height="60"/>
     </a>
     &nbsp;&nbsp;
     <a href="https://www.aluracursos.com/">
-        <img src="https://app.aluracursos.com/assets/images/logos/logo-aluraespanhol.svg" alt="Alura Latam" height="60"/>
+        <img src="https://app.aluracursos.com/assets/images/logos/logo-aluraespanhol.svg" target="_blank" alt="Alura Latam" height="60"/>
     </a>
 </p>
 
