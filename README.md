@@ -1,9 +1,14 @@
 # 🚀 Oracle Next Education (ONE) - Challenges Collection
 
-[![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)](https://www.oracle.com/education/oracle-next-education/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+<p>
+    <a href="https://www.oracle.com/pe/education/oracle-next-education/">
+        <img src="    https://cdn2.gnarususercontent.com.br/1/1221562/b6256fa6-5fde-4cdd-a4a3-d33ebc90bb6c.png" alt="Oracle" height="60"/>
+    </a>
+    &nbsp;&nbsp;
+    <a href="https://www.aluracursos.com/">
+        <img src="https://app.aluracursos.com/assets/images/logos/logo-aluraespanhol.svg" alt="Alura Latam" height="60"/>
+    </a>
+</p>
 
 ## 📋 Descripción
 
