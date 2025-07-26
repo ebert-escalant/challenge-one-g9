@@ -1,6 +1,6 @@
 import confetti from "canvas-confetti";
 import { Game } from "./game";
-import { $, $$ } from "./selector";
+import { $ } from "./selector";
 
 document.addEventListener("DOMContentLoaded", () => {
 
