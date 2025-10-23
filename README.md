@@ -32,8 +32,19 @@ Aplicación web interactiva para organizar sorteos de amigo secreto. Permite agr
 
 ---
 
-### 🚧 Challenge 02 - Próximamente
-*Pendiente...*
+### � Challenge 02 - Conversor de Divisas
+**Tecnologías**: Java 25, Maven, Swing, Gson, HttpClient
+
+Conversor de divisas en tiempo real que permite realizar conversiones entre diferentes monedas latinoamericanas. Incluye dos modos de operación: interfaz gráfica con Swing y modo terminal interactivo.
+
+**Características**:
+- 🔄 Conversión en tiempo real usando API externa
+- 🖥️ Interfaz gráfica amigable (GUI)
+- ⌨️ Modo terminal interactivo
+- 🌐 Integración con API de tasas de cambio
+- 💰 Soporte para USD, PEN, ARS, BRL
+
+[📂 Ver Challenge 02](./challenge-02/)
 
 ## 📁 Estructura del Repositorio
 
@@ -46,8 +57,10 @@ challenge/
 │   ├── index.html
 │   ├── package.json
 │   └── README.md
-├── challenge-02/               # Próximo challenge
-│   └── ...
+├── challenge-02/               # Conversor de Divisas
+│   ├── src/
+│   ├── pom.xml
+│   └── README.md
 └── challenge-03/               # Próximo challenge
     └── ...
 ```
@@ -55,44 +68,50 @@ challenge/
 ## 🚀 Instrucciones Generales
 
 ### Prerrequisitos
-- Node.js (versión 16 o superior)
+- Node.js (versión 16 o superior) - Para Challenge 01
+- Java JDK 25+ y Maven - Para Challenge 02
 - Git
-- Editor de código (recomendado: VS Code)
+- Editor de código (recomendado: VS Code o IntelliJ IDEA)
 
 ### Clonar el Repositorio
 ```bash
 git clone https://github.com/ebert-escalant/challenge-one-g9.git
-cd challenge-01
+cd challenge
 ```
 
-### Ejecutar un Challenge Específico
+### Ejecutar Challenge 01 (JavaScript)
 ```bash
-# Navegar al challenge deseado
 cd challenge-01
-
-# Instalar dependencias
 npm install
-
-# Ejecutar en modo desarrollo
 npm run dev
+```
+
+### Ejecutar Challenge 02 (Java)
+```bash
+cd challenge-02
+mvn clean compile
+mvn exec:java -Dexec.mainClass="com.currencyconverter.main.Main"
 ```
 
 ## 📈 Progreso del Programa
 
 - [x] **Challenge 01**: Amigo Secreto ✅ Completado
-- [ ] **Challenge 02**: Pendiente ⏳
+- [x] **Challenge 02**: Conversor de Divisas ✅ Completado
+- [ ] **Challenge 03**: Próximamente ⏳
 
 ## 🎓 Competencias Desarrolladas
 
 ### Técnicas
 - [x] Manipulación del DOM
-- [x] Programación orientada a objetos
+- [x] Programación orientada a objetos (JavaScript & Java)
 - [x] Manejo de eventos
 - [x] Validación de datos
 - [x] Modularización de código
 - [x] Control de versiones con Git
-- [ ] APIs REST
-- [ ] Frameworks modernos
+- [x] APIs REST (consumo de APIs externas)
+- [x] Desarrollo de interfaces gráficas (Swing)
+- [x] Gestión de dependencias (Maven)
+- [x] HttpClient y peticiones HTTP
 - [ ] Testing
 - [ ] Deployment
 
