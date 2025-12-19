@@ -46,6 +46,23 @@ Conversor de divisas en tiempo real que permite realizar conversiones entre dife
 
 [📂 Ver Challenge 02](./challenge-02/)
 
+---
+
+### 📚 Challenge 03 - API de Biblioteca
+**Tecnologías**: Java 25, Spring Boot 4, Maven, Spring Data JPA, PostgreSQL, Jackson
+
+API REST y aplicación de consola para gestionar una biblioteca digital. Permite buscar y agregar libros por título (integración con Gutendex), listar libros y autores, consultar autores vivos en un año específico y filtrar libros por idioma. Utiliza PostgreSQL para persistencia.
+
+**Características**:
+- 🔍 Buscar y agregar libros por título desde Gutendex
+- 📚 Listar libros registrados
+- 👨‍💼 Listar autores registrados
+- 📅 Consultar autores vivos en un año específico
+- 🌐 Filtrar libros por idioma
+- 🗄️ Persistencia en PostgreSQL
+
+[📂 Ver Challenge 03](./challenge-03/)
+
 ## 📁 Estructura del Repositorio
 
 ```
@@ -61,7 +78,10 @@ challenge/
 │   ├── src/
 │   ├── pom.xml
 │   └── README.md
-└── challenge-03/               # Próximo challenge
+└── challenge-03/               # API de Biblioteca
+    ├── src/
+    ├── pom.xml
+    └── README.md
     └── ...
 ```
 
@@ -69,7 +89,7 @@ challenge/
 
 ### Prerrequisitos
 - Node.js (versión 16 o superior) - Para Challenge 01
-- Java JDK 25+ y Maven - Para Challenge 02
+- Java JDK 25+ y Maven - Para Challenge 02 y 03
 - Git
 - Editor de código (recomendado: VS Code o IntelliJ IDEA)
 
@@ -93,11 +113,18 @@ mvn clean compile
 mvn exec:java -Dexec.mainClass="com.currencyconverter.main.Main"
 ```
 
+### Ejecutar Challenge 03 (Java)
+```bash
+cd challenge-02
+mvn clean compile
+mvn exec:java -Dexec.mainClass="com.currencyconverter.main.Main"
+```
+
 ## 📈 Progreso del Programa
 
 - [x] **Challenge 01**: Amigo Secreto ✅ Completado
 - [x] **Challenge 02**: Conversor de Divisas ✅ Completado
-- [ ] **Challenge 03**: Próximamente ⏳
+- [x] **Challenge 03**: API de Biblioteca ✅ Completado
 
 ## 🎓 Competencias Desarrolladas
 
