@@ -71,7 +71,7 @@ challenge-02/
 1. **Clonar el repositorio**
 ```bash
 git clone https://github.com/ebert-escalant/challenge-one-g9.git
-cd challenge-01
+cd challenge-02
 ```
 
 2. **Compilar el proyecto**
